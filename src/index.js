@@ -46,20 +46,3 @@ app.get("/boleto/:linha", (request ,response) => {
 
 //rodo a aplicação na porta localhost:8080
 app.listen(8080);
-
-//
-//
-//
-//
-// Exemplo de resquest 
-// GET/ http://localhost:8080/boleto/23799755200003700003381260007827139500006330 
-
-//Exemplo de response 
-
-// status 200 
-
-// { 
-//  “barCode”: “21299758700000020000001121100012100447561740”, 
-//  “amount”: “20.00”, 
-//  “expirationDate”: “2018-07-16” 
-// } 
